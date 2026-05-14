@@ -1,0 +1,17 @@
+{
+  "name": "@qb/agentic",
+  "version": "1.1.0",
+  "description": "Agentic service module — structured agent calls through MicroG",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./server": "./server.ts"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "axios": "^1.0.0",
+    "express": "^4.0.0",
+    "mongoose": "^8.0.0"
+  }
+}

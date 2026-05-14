@@ -16,6 +16,8 @@ export type TDefaultConfigurableData = {
   appName: string;
   logoUrl: string;
   brandColor: TBrandColor;
+  welcomeMessage?: string;
+  placeholderText?: string;
   // Mirror new schema fields here. Example:
   //   maxItemsPerPage?: number;
   //   enableNotifications?: boolean;
@@ -30,6 +32,8 @@ export const defaultConfigurablesData: TDefaultConfigurableData = {
     secondary: "FILL_SECONDARY_COLOR_HERE",
     accent: "FILL_ACCENT_COLOR_HERE",
   },
+  welcomeMessage: "Hi! I'm here to help. What would you like to talk about?",
+  placeholderText: "Type your message here...",
   // ─────────────────────────────────────────────────────────────────────
   // Add new field defaults here. See RULES.md §5 for per-type shape.
   // Required branding fields → use the FILL_X_HERE placeholder pattern.

@@ -71,5 +71,17 @@ export const configurableSchemas: ConfigurableSchemas = {
         },
       ],
     },
+    {
+      fieldName: "welcomeMessage",
+      type: "string",
+      required: false,
+      label: "Welcome Message",
+    },
+    {
+      fieldName: "placeholderText",
+      type: "string",
+      required: false,
+      label: "Message Input Placeholder",
+    },
   ],
 };
